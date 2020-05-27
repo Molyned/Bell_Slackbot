@@ -30,7 +30,7 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {});
 
 app.get('/', (req, res) => {
-	res.send("This is the backend for the Tattle bot. If you have any questions")
+	res.send("This is the backend for acro")
 })
 
 app.post('/add', (req, res) => {
